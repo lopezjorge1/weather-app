@@ -1,0 +1,88 @@
+html,body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	color: #000;
+}
+
+body {
+	position: relative;
+	background-color: rgba(0,0,0,.2);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: cursive;
+	position: relative;
+	left: 3vw;
+	font-size: 3vw;
+	letter-spacing: .25vw;
+}
+
+.info-box {
+	width: 25vw;
+	height: 10vw;
+	border: thin solid #000;
+	position: absolute;
+	right: 3vw;
+	top: 0;
+	font-family: monospace;
+}
+
+ul {
+	position: absolute;
+	margin-top: 0;
+	left: 2vw;
+	transform: translate(-20%);
+	list-style-type: none;
+	white-space: nowrap;
+	line-height: 2vw;
+}
+
+#description {
+	position: absolute;
+	bottom: 0;
+	left: .5vw;
+	color: #f00;
+	cursor: pointer;
+}
+
+#description-box {
+	font-family: monospace;
+	color: #fff;
+	position: absolute;
+	width: 35vw;
+	height: 20vw;
+	left: 50%;
+	border: thin solid #000;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	background-color: rgba(0,0,0,.5);
+}
+
+#temperature {
+	cursor: pointer;
+} 
+
+#weather-icon{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%);
+	height: 5vw;
+	width: 5vw;
+} 
+
+#description-info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 2vw;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Weather App</title>
+
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+			<h1>Weather App</h1>
+
+			<section class="info-box">
+				<ul>
+					<li>Current Location:<span id="location"></span></li>
+					<li>Current Temperature:<span id="temperature"></span><span id="type"></span></li>
+					<li>Current Humidity:<span id="humidity"></span></li>
+				</ul>
+
+				<span id="description">Current Description?</span>
+			</section>
+
+			<aside id="description-box" hidden>
+				<img src="http://openweathermap.org/img/w/02d.png" id="weather-icon">
+				<div id="description-info"></div>
+			</aside>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html> 
